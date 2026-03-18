@@ -27,6 +27,8 @@ The project demonstrates the complete transfer learning pipeline: dataset prepar
 4. Run all cells sequentially in:
     - `CNN_Transfer_Learning.ipynb`
 
+> **Note:** The trained model weights (`best_model.pth`) are not included in this repository due to file size. To generate them, run all cells in the notebook before launching the Streamlit app.
+
 **To run the Streamlit app:**
 1. Make sure `best_model.pth` is in the same directory as `cnn_app.py`
 2. Run:
